@@ -17,15 +17,14 @@
           exact
         >
           <v-list-item-content>
-            <v-list-item-title class="success--text" v-text="item.title" />
+            <v-list-item-title class="primary--text" v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar app flat height="7" class="success">
+    <v-app-bar app flat height="20" class="primary">
       <v-app-bar-nav-icon
-        class="hidden-md-and-up secondary--text mt-5"
-        dark
+        class="hidden-md-and-up secondary--text"
         @click.stop="drawer = !drawer"
       >
       </v-app-bar-nav-icon>
@@ -40,16 +39,12 @@ export default {
       drawer: false,
       items: [
         {
-          title: 'Home',
-          to: '/',
-        },
-        {
           title: 'About',
           to: '/about',
         },
         {
-          title: 'Skills',
-          to: '/skills',
+          title: 'Resume',
+          to: '/resume',
         },
         {
           title: 'Projects',
