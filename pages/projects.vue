@@ -27,6 +27,7 @@ export default {
         {url:'https://eneotu.netlify.app', text: 'My Portfolio'},
         {url:'https://preptask.netlify.app/quiz', text: 'Preptask: an educational tool built with nuxt, Django and GraphQL'},
         {url:'https://event-nigeria.netlify.app/', text: 'Event Nigeria: an event app built with nuxt, strapi and GraphQL'},
+        {url:'https://blog-pro-1.netlify.app/', text: 'Blog: Built with nuxt, strapi and GraphQL'},
       ]
     }
   }

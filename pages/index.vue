@@ -39,7 +39,7 @@
     <v-row justify="center" align="center">
       <v-col cols="12" class="text-center mt-10">
         <v-btn to="/about" outlined class="primary--text mb-1">About</v-btn>
-        <v-btn to="/resume" outlined class="primary--text mb-1">Resume</v-btn>
+        <v-btn href="/resume.pdf" outlined class="primary--text mb-1">Resume</v-btn>
         <v-btn to="/projects" outlined class="primary--text mb-1">
           Projects
         </v-btn>
