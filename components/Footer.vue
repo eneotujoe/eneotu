@@ -7,3 +7,8 @@
     </v-row>
   </v-footer>
 </template>
+<style scoped>
+.v-footer {
+  height: 30%;
+}
+</style>
