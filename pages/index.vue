@@ -12,7 +12,7 @@
         <v-img
           :src="require('../assets/photo.png')"
           alt="photo"
-          min-height="100"
+          height="200"
           eager
           contain
         />
