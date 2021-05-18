@@ -23,9 +23,9 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar app flat height="15" class="primary">
+    <v-app-bar app flat height="15" class="secondary">
       <v-app-bar-nav-icon
-        class="hidden-md-and-up secondary--text ml-n7"
+        class="hidden-md-and-up primary--text ml-n7"
         @click.stop="drawer = !drawer"
       >
       </v-app-bar-nav-icon>

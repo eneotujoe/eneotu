@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <Navbar />
-    <v-main class="secondary ma-1">
+    <v-main class="secondary ma-1 mt-11">
       <v-container>
         <nuxt />
       </v-container>
@@ -18,6 +18,6 @@ html {
 }
 .v-main {
   align-items: center;
-  height: 75%;
+  height: 85%;
 }
 </style>
