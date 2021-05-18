@@ -12,6 +12,6 @@
 </template>
 <style scoped>
 .v-footer {
-  height: 30%;
+  height: 40%;
 }
 </style>

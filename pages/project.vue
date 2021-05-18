@@ -41,14 +41,14 @@ a:after {
   content: "";
   position: absolute;
   background-color:#76FF03;
-  height: 2.5rem;
+  height: 1rem;
   width: 0;
   left: 3rem;
-  bottom: -10px;
+  bottom: -1px;
   transition: 0.3s;
 }
 
 a:hover:after {
-  width: 100%;
+  width: 80%;
 }
 </style>

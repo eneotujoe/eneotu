@@ -25,7 +25,7 @@
     </v-navigation-drawer>
     <v-app-bar app flat height="15" class="primary">
       <v-app-bar-nav-icon
-        class="hidden-md-and-up secondary--text ml-n5"
+        class="hidden-md-and-up secondary--text ml-n7"
         @click.stop="drawer = !drawer"
       >
       </v-app-bar-nav-icon>
