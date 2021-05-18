@@ -1,6 +1,6 @@
 <template>
   <v-row class="primary--text ma-5">
-      <h1>Projects</h1>   
+      <h2 class="ml-3">Projects</h2>   
     <v-col
       v-for="(link, i) in links"
       :key="i"
@@ -44,7 +44,7 @@ a:after {
   height: 1rem;
   width: 0;
   left: 3rem;
-  bottom: -1px;
+  top: 1px;
   transition: 0.3s;
 }
 

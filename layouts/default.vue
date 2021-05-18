@@ -18,6 +18,6 @@ html {
 }
 .v-main {
   align-items: center;
-  height: 60%;
+  min-height: 70%;
 }
 </style>

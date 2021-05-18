@@ -11,7 +11,7 @@
       <v-img
         :src="require('../assets/photo.png')"
         alt="photo"
-        height="200"
+        height="300"
         eager
         contain
       />
@@ -35,4 +35,13 @@ h1 {
   font-weight: lighter;
   text-transform: uppercase;
 }
+/* .v-image {
+  border: 1px solid #76FF03;
+  border-radius: 50%;
+} */
+/* .v-btn:hover {
+  background-color: #76ff03;
+  color: #000000;
+  opacity: unset;
+} */
 </style>
