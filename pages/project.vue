@@ -1,6 +1,6 @@
 <template>
   <v-row class="primary--text ma-5">
-      <h2 class="ml-3">Projects</h2>   
+    <h2 class="ml-3">Projects</h2>   
     <v-col
       v-for="(link, i) in links"
       :key="i"
@@ -17,6 +17,7 @@
     </v-col>
   </v-row>
 </template>
+
 <script>
 export default {
   data() {
