@@ -1,7 +1,7 @@
 <template>
   <v-footer class="secondary">
     <v-row class="ma-5 success--text">
-    <v-col cols="12" sm="12" md="3" class="text-center my-5">
+    <v-col cols="12" class="text-center my-5">
         <SocialLinks/>
       </v-col>
       <v-col class="my-5 text-center">
