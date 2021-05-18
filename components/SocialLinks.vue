@@ -1,6 +1,6 @@
 <template>
     <v-row class="primary--text">
-      <v-col cols="12" class="text-center">
+      <v-col cols="12" class="text-center my-10">
         <v-btn
           v-for="(link, i) in links"
           :key="i"

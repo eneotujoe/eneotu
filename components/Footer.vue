@@ -4,14 +4,14 @@
     <v-col cols="12" class="text-center my-5">
         <SocialLinks/>
       </v-col>
-      <v-col class="my-5 text-center">
+      <v-col class="my-10 text-center">
         <p>&copy; {{ new Date().getFullYear() }} - Eneotu Joe</p>
       </v-col>
     </v-row>
   </v-footer>
 </template>
 <style scoped>
-.v-footer {
-  /* height: 30%; */
-}
+/* .v-footer {
+  height: 100%;
+} */
 </style>
