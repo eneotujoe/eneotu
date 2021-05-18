@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <Navbar />
-    <v-main class="secondary ma-5">
+    <v-main class="secondary ma-2">
       <v-container>
         <nuxt />
       </v-container>

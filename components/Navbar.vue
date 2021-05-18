@@ -8,23 +8,24 @@
       dark
       class="secondary"
     >
+      <v-system-bar height="50">
+        <v-btn to='/' block tile text class="primary--text">eneotu</v-btn>
+      </v-system-bar>
       <v-list nav>
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :to="item.to"
-          router
-          exact
-        >
-          <v-list-item-content>
-            <v-list-item-title class="primary--text" v-text="item.title" />
-          </v-list-item-content>
+        <v-list-item>
+          <v-list-item-title class="primary--text"><v-btn to='/about' block tile text class="primary--text">About</v-btn></v-list-item-title>
+        </v-list-item>
+        <v-list-item>
+          <v-list-item-title class="primary--text"><v-btn href='/resume.pdf' block tile text class="primary--text">Resume</v-btn></v-list-item-title>
+        </v-list-item>
+        <v-list-item>
+          <v-list-item-title class="primary--text"><v-btn to='/project' block tile text class="primary--text">Project</v-btn></v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar app flat height="20" class="primary">
+    <v-app-bar app flat height="15" class="primary">
       <v-app-bar-nav-icon
-        class="hidden-md-and-up secondary--text"
+        class="hidden-md-and-up secondary--text ml-n5"
         @click.stop="drawer = !drawer"
       >
       </v-app-bar-nav-icon>
@@ -37,20 +38,6 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [
-        {
-          title: 'About',
-          to: '/about',
-        },
-        {
-          title: 'Resume',
-          to: '/resume',
-        },
-        {
-          title: 'Projects',
-          to: '/projects',
-        },
-      ],
     }
   },
 }

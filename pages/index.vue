@@ -11,54 +11,22 @@
       <v-img
         :src="require('../assets/photo.png')"
         alt="photo"
-        height="150"
+        height="200"
         eager
         contain
       />
     </v-col>
-    <v-col cols="12" sm="12" md="3" class="text-center">
-        <v-btn
-          v-for="(link, i) in links"
-          :key="i"
-          :href="link.url"
-          outlined
-          fab
-          small
-          class="ma-1 primary--text"
-          icon
-          target="_blank"
-        >
-          <v-icon size="20">
-            {{ link.icon }}
-          </v-icon>
-        </v-btn>
-      </v-col>
       <v-col cols="12" sm="8" md="4" class="text-center">
         <v-btn to="/about" outlined class="primary--text mb-1">About</v-btn>
         <v-btn href="/resume.pdf" outlined class="primary--text mb-1">Resume</v-btn>
-        <v-btn to="/projects" outlined class="primary--text mb-1">Projects</v-btn>
+        <v-btn to="/project" outlined class="primary--text mb-1">Project</v-btn>
       </v-col>
   </v-row>
 </template>
 
 <script>
 export default {
-  data: () => ({
-    links: [
-      {
-        icon: 'mdi-twitter',
-        url: 'https://twitter.com/eneotujoe',
-      },
-      {
-        icon: 'mdi-linkedin',
-        url: 'https://www.linkedin.com/in/eneotujoe/',
-      },
-      {
-        icon: 'mdi-github',
-        url: 'https://github.com/eneotujoe',
-      },
-    ],
-  }),
+  
 }
 </script>
 <style scoped>
